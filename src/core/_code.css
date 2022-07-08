@@ -1,0 +1,25 @@
+pre {
+  background: var(--c-background-accent);
+  padding: var(--theme-spacing);
+  overflow-y: scroll;
+}
+
+code {
+  background: var(--c-background-accent);
+  padding: var(--text-utility-padding);
+  color: var(--c-code);
+}
+
+pre,
+code {
+  font-family: var(--font-stack-mono);
+  font-size: 0.8rem;
+}
+
+kbd {
+  background: var(--c-background-accent);
+  border: 1px solid var(--c-background-accent-dark);
+  padding: var(--text-utility-padding);
+  border-radius: 0.2rem;
+  font-size: 0.8em;
+}

@@ -1,0 +1,22 @@
+table {
+  width: 100%;
+  border-spacing: 0;
+}
+
+table caption {
+  margin-bottom: var(--theme-spacing);
+}
+
+thead,
+tfoot {
+  text-align: left;
+}
+
+tr:nth-child(2n) {
+  background: var(--c-background-accent);
+}
+
+td,
+th {
+  padding: var(--text-utility-padding);
+}

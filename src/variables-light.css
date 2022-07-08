@@ -1,0 +1,15 @@
+:root {
+  --font-stack-sans: -apple-system, BlinkMacSystemFont, avenir next, avenir,
+    segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial,
+    sans-serif;
+  --font-stack-mono: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console,
+    monospace;
+  --c-background-body: white;
+  --c-background-accent: #eef0f2;
+  --c-background-accent-dark: #bec0c2;
+  --c-accent: #fde396;
+  --c-code: #000;
+  --theme-spacing: 1.5rem;
+  --text-utility-padding: 0.1rem 0.2rem;
+  --base-font-size: 18px;
+}

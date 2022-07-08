@@ -1,0 +1,39 @@
+label {
+  margin-left: 0;
+  display: inline-block;
+}
+
+button,
+input,
+select,
+textarea {
+  padding: 0.5rem;
+  background-color: var(--c-background-accent);
+  border: none;
+  margin-bottom: 0.5rem;
+}
+
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  cursor: pointer;
+}
+
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+  background-color: var(--c-background-accent-dark);
+}
+
+fieldset {
+  margin: var(--theme-spacing) 0 var(--theme-spacing) 0;
+  border: 2px solid var(--c-background-accent);
+}
+
+input:not(input[type="checkbox"], input[type="radio"]),
+select,
+textarea {
+  display: block;
+}

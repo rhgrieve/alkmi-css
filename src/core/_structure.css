@@ -1,0 +1,33 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 40em;
+  padding-left: var(--theme-spacing);
+  padding-right: var(--theme-spacing);
+  background: var(--c-background-body);
+  color: #333;
+}
+
+header {
+  border-bottom: 2px solid var(--c-background-accent);
+  margin: var(--theme-spacing) 0 var(--theme-spacing) 0;
+}
+
+img {
+  width: 100%;
+}
+
+hr {
+  border: none;
+  margin: var(--theme-spacing) 0 var(--theme-spacing) 0;
+  border-top: 2px solid var(--c-background-accent);
+}
